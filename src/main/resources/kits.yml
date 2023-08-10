@@ -1,0 +1,215 @@
+Kits:
+  NoDebuff:
+    ranked: true
+    sumo: false
+    icon:
+      name: POTION
+      durability: 16421
+    inventory:
+      slots:
+        '0':
+          itemName: DIAMOND_SWORD
+          itemAmount: 1
+          itemDurability: 0
+          enchantments:
+            DAMAGE_ALL:
+              name: DAMAGE_ALL
+              level: 3
+            FIRE_ASPECT:
+              name: FIRE_ASPECT
+              level: 2
+        '1':
+          itemName: ENDER_PEARL
+          itemAmount: 16
+          itemDurability: 0
+        '2':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 8226
+        '3':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 8259
+        '4':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '5':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '6':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '7':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '8':
+          itemName: GOLDEN_CARROT
+          itemAmount: 64
+          itemDurability: 0
+        '9':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '10':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '11':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '12':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '13':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '14':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '15':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '16':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '17':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 8226
+        '18':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '19':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '20':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '21':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '22':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '23':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '24':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '25':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '26':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 8226
+        '27':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '28':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '29':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '30':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '31':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '32':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '33':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '34':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 16421
+        '35':
+          itemName: POTION
+          itemAmount: 1
+          itemDurability: 8226
+        '36':
+          itemName: DIAMOND_BOOTS
+          itemAmount: 1
+          itemDurability: 0
+          enchantments:
+            PROTECTION_ENVIRONMENTAL:
+              name: PROTECTION_ENVIRONMENTAL
+              level: 3
+            DURABILITY:
+              name: DURABILITY
+              level: 3
+            PROTECTION_FALL:
+              name: PROTECTION_FALL
+              level: 4
+        '37':
+          itemName: DIAMOND_LEGGINGS
+          itemAmount: 1
+          itemDurability: 0
+          enchantments:
+            PROTECTION_ENVIRONMENTAL:
+              name: PROTECTION_ENVIRONMENTAL
+              level: 3
+            DURABILITY:
+              name: DURABILITY
+              level: 3
+        '38':
+          itemName: DIAMOND_CHESTPLATE
+          itemAmount: 1
+          itemDurability: 0
+          enchantments:
+            PROTECTION_ENVIRONMENTAL:
+              name: PROTECTION_ENVIRONMENTAL
+              level: 3
+            DURABILITY:
+              name: DURABILITY
+              level: 3
+        '39':
+          itemName: DIAMOND_HELMET
+          itemAmount: 1
+          itemDurability: 0
+          enchantments:
+            PROTECTION_ENVIRONMENTAL:
+              name: PROTECTION_ENVIRONMENTAL
+              level: 3
+            DURABILITY:
+              name: DURABILITY
+              level: 3
+    pearl-cooldown: 15
+  Sumo:
+    name: Sumo
+    sumo: true
+    ranked: true
+    icon:
+      name: LEASH
+      durability: 0

@@ -1,0 +1,103 @@
+#The key number represents the slot the item will be placed at. Keep in mind that it is 0-8 instead of 1-9 (meaning 0 -> 1 and so on).
+#Only set valid items to "item"!
+#All available functions are: unranked, ranked, events, stats, settings, party and editor.
+#The "lore" section needs to have that certain - structure because it will be read as a list.
+
+use-colours: true
+
+joinitems:
+  0:
+    name: Unranked Queue
+    item: STONE_SWORD
+    lore:
+      - Rightclick to open
+      - the unrnaked queue
+    function: unranked
+  1:
+    name: Ranked Queue
+    item: IRON_SWORD
+    lore:
+      - Rightclick to open
+      - the ranked queue
+    function: ranked
+  3:
+    name: Host Events
+    item: ANVIL
+    lore:
+      - Rightclick to open
+      - the event menu
+    function: events
+  5:
+    name: Create Party
+    item: NAME_TAG
+    lore:
+      - Rightclick to
+      - create a party
+    function: party
+  6:
+    name: Stats
+    item: EMERALD
+    lore:
+      - Rightclick to open
+      - leaderboard menu
+    function: stats
+  7:
+    name: Settings
+    item: WATCH
+    lore:
+      - Rightclick to open
+      - the settings menu
+    function: settings
+  8:
+    name: Edit Kits
+    item: BOOK
+    lore:
+      - Rightclick to
+      - edit a kit
+    function: editor
+
+partyitems:
+
+  #Here you can configure all items players will have when they are in a party.
+  # You can use the following functions here:
+  # duel - Opens a menu to send a duel request to another party
+  # queue - Opens a menu to join a party queue
+  # events - Opens a menu to let you create little events within your party
+  # info - Displays the party's information
+  # leave - Leave the party
+
+  0:
+    name: Duel another party
+    item: STONE_AXE
+    lore:
+      - Rightclick to
+      - duel a party
+    function: duel
+  1:
+    name: Party queue
+    item: IRON_AXE
+    lore:
+      - Rightclick to
+      - join the party queue
+    function: queue
+  2:
+    name: Party Events
+    item: DIAMOND_AXE
+    lore:
+      - Rightclick to
+      - host a party event
+    function: events
+  7:
+    name: Party Info
+    item: PAPER
+    lore:
+      - Rightclick to view
+      - the party's info
+    function: info
+  8:
+    name: Leave Party
+    item: REDSTONE
+    lore:
+      - Rightclick
+      - to leave the party
+    function: leave

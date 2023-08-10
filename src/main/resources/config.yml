@@ -1,0 +1,203 @@
+config:
+
+  #The colours MUST be one of the following:
+  #AQUA, BLACK, BLUE, BOLD, DARK_AQUA, DARK_BLUE, DARK_GRAY, DARK_GREEN, DARK_PURPLE, DARK_RED, GOLD, GRAY, GREEN, ITALIC, LIGHT_PURPLE, MAGIC, RED, RESET, STRIKETHROUGH, UNDERLINE, WHITEYELLOW
+
+  colours:
+    #These colours will apply plugin wide to messages and scoreboards and inventory menus
+    primary: "YELLOW"
+    secondary: "DARK_AQUA"
+
+  # All worlds in this list are completely excluded and IcePractice will not affect gameplay on them at all
+  blacklisted-worlds:
+    - "yourworldthatisblacklisted"
+
+  mysql:
+    # True if you want the plugin to use MySQL
+    use: false
+    host: "your host here"
+    database: "your data base here"
+    user: "your user name here"
+    password: "your password here"
+    # Port is usually always the same
+    port: 3306
+
+  scoreboards:
+    #Here you can customize all scoreboards. You can use several placeholders for each particular board.
+
+    #IMPORTANT: Only use "&" for colour codes! Using other characters can lead to issues!
+
+    #General placeholders:
+    # %line% - displays a straight stripe in this line
+    # %space% - makes this line blank
+
+    title: "ICEPRACTICE"
+
+    #Whether the global colour codes apply to scoreboards as well or not
+    use-default-colours: true
+
+    # Placeholders for every type of scoreboard:
+    # %space% - Will insert a blank line
+    # %line% - Will insert a straight line
+
+    idle:
+      # Placeholders:
+      # %online-players% - amount of players online
+      # %players-inmatch% - amount of players in a match
+
+      6: "%line%"
+      5: "Online: %online-players%"
+      4: "In Match: %players-inmatch%"
+      3: "%space%"
+      2: "example.com"
+      1: "%line%"
+
+    queue:
+      # Placeholders:
+      # %kit% - The kit the player is queueing for
+      # %time% - The time the player has been in the queue
+
+      6: "%line%"
+      5: "Queueing for:"
+      4: "%kit%"
+      3: "Duration: %time%"
+      2: "example.com"
+      1: "%line%"
+    duel:
+      # Placeholders:
+      # %opponent% - the player"s opponent
+      # %own-ping% - the player"s own ping
+      # %opponent-ping% - the player"s opponent"s ping
+      # %duration% - the match"s duration
+
+      7: "%line%"
+      6: "Your ping: %own-ping% ms"
+      5: "Their ping: %opponent-ping% ms"
+      4: "%space%"
+      3: "Duration: %duration%"
+      2: "example.com"
+      1: "%line%"
+
+    # 1v1 Sumo Events
+    sumosoloevent:
+      # Placeholders:
+      # %player1% - First currently playing player
+      # %player2% - Second currently playing player
+      # %players-left% - Remaining players in event
+      # %cps1% - First player's cps
+      # %cps2% - Second player's cps
+
+      9: "%line%"
+      8: "%player1% (%cps1% CPS)"
+      7: "     vs."
+      6: "%player2% (%cps2% CPS)"
+      5: "%space%"
+      4: "Players left: %players-left%"
+      3: "%space%"
+      2: "example.com"
+      1: "%line%"
+
+    # Team Sumo Events
+    sumoteamevent:
+      # Placeholders:
+      # %player1% - First team's currently playing player
+      # %player2% - Second team's currently playing player
+      # %players-left% - Remaining players in event
+
+      9: "%line%"
+      8: "%player1% 's team"
+      7: "     vs."
+      6: "%player2% 's team"
+      5: "%space%"
+      4: "Players left: %players-left%"
+      3: "%space%"
+      2: "example.com"
+      1: "%line%"
+
+    startingevent:
+
+      # Placeholders:
+      # %participants% - Amount of players in event
+      # %kit% - The event's kit
+      # %time-left% - Time left until the event starts
+
+      8: "%line%"
+      7: "Starting in: %time-left%"
+      6: "%space%"
+      5: "Players: %participants%"
+      4: "Kit: %kit%"
+      3: "%space%"
+      2: "example.com"
+      1: "%line%"
+    party:
+
+      # Placeholders:
+      # %party-leader% - The party"s leader
+      # %party-members% - Amount of players in the party
+
+      7: "%line%"
+      6: "%party-leader%'s party"
+      5: "%space%"
+      4: "Members: %party-members%"
+      3: "%space%"
+      2: "example.com"
+      1: "%line%"
+
+    teamfight:
+
+      # Placeholders:
+      # %own-ping% - The player's ping
+      # %own-teamsize% - Amount of players left the player's team
+      # %opponent-teamsize% - Amount of players left opposite team
+      # %duration% - The duration of the match
+
+      7: "%line%"
+      6: "Your team: %own-teamsize% left"
+      5: "Their team: %opponent-teamsize% left"
+      4: "%space%"
+      3: "Duration: %duration%"
+      2: "example.com"
+      1: "%line%"
+
+    ffa:
+      # Placeholders:
+      # %own-ping% - The player's ping
+      # %alive% - Amount of players left
+      # %kills% - Amount of kills the player has
+      # %duration% - The duration of the match
+      7: "%line%"
+      6: "Players left: %alive%"
+      5: "Your kills: %kills%"
+      4: "%space%"
+      3: "Duration: %duration%"
+      2: "example.com"
+      1: "%line%"
+
+    koth:
+      # Placeholders:
+      # %own-points% - Own team's points
+      # %opponent-points% - Opposite team's points
+      # %kills% - Amount of kills the player has
+      # %captain% - The player who is on the hill at the moment
+      8: "%line%"
+      7: "Capper: %captain%"
+      6: "Your points: %own-points%"
+      5: "Their points: %opponent-points%"
+      4: "%space%"
+      3: "Time remaining: %time-remaining%"
+      2: "example.com"
+      1: "%line%"
+
+
+  queue-leave-item: "REDSTONE"
+  queue-leave-item-name: "&cLeave Queue"
+
+  # If a player gets teleported on join
+  teleport-on-join: true
+
+  match:
+    max-elo-change: 25
+
+  events:
+    allow-password-protection: true
+    time-before-start: 2 #In minutes

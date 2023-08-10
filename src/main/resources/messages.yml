@@ -1,0 +1,147 @@
+messages:
+
+  #IMPORTANT: Only use placeholder(the things with % around it) where it is in the default message. Using placeholders for different messages will not work!
+  #IMPORTANT: Only use & for colour codes! Using other characters can lead to issues on some OS'
+
+  #Whether the global colour codes shall be used or not
+  use-default-colours: true
+
+  general:
+    #Accept button will be added automatically
+    request: "%player% has sent you a duel request with the kit %kit%."
+    no-duel-request: "%player% hasn't sent you a duel request."
+    accepted-request: "%player accepted your duel request."
+    send-request: "You sent a duel request to %player% with the kit %kit%."
+
+  match:
+    #Cooldown before match starts
+    cooldown: "Match starting in %cooldown%."
+
+    #Messages before a match starts
+    match-started: "Match has started."
+    starting-match: "Starting match against %opponent%  with the kit %kit%."
+    starting-ffa-match: "Starting FFA match with the kit %kit%."
+    combo-info: "This is a combo kit meaning you can hit faster."
+
+    #Message when match has ended
+    match-ended: "Match has ended."
+
+    #When someone died in a team fight
+    team-death: "%dead% was killed by %killer%."
+
+    #Messages players in match will see when some one spectates their match
+    now-spectating: "%player% is now spectating your match."
+    nolonger-spectating: "%player% is no longer spectating your match."
+
+    #Messages the spectator will see
+    left-spectator: "You stopped spectating."
+    solo-spectator: "You are now spectating the match between %player1% and %player2% with the kit %kit%."
+    team-spectator: "You are now spectating the match between %player1%'s team and %player2%'s team with the kit %kit%."
+    ffa-spectator: "You are spectating the FFA match with the kit %kit%."
+
+    no-arenas: "No free arena could have been found for this game mode."
+
+  queue:
+
+    #Self explaining :)
+    join-unranked: "You joined the unranked %kit% queue."
+    join-ranked: "You joined the ranked %kit% queue. [%elo%]"
+    join-party: "You joined the %kit% party queue."
+    left-queue: "You left the queue."
+
+  arenas:
+
+    #Messages when creating/editing arenas
+    create: "You created the arena with the name %name%."
+    already-exists: "An arena with this name already exists."
+    pos1: "You set the first spawn for the arena %name%."
+    pos2: "You set the second spawn for the arena %name%."
+    delete: "You deleted the arena %name%."
+    center: "You set the center for the arena %name%."
+    sumo-true: "The arena %name% is now a Sumo arena."
+    sumo-false: "The arena %name% is no longer a Sumo arena."
+    spleef-false: "The arena %name% is no longer a Spleef arena."
+    spleef-true: "The arena %name% is now a Spleef arena."
+    hcf-false: "The arena %name% is no longer an HCF arena."
+    hcf-true: "The arena %name% is now an HCF arena."
+
+
+
+  kits:
+
+    #Messages when creating/editing kits
+    notexist: "This kit does not exist."
+    create: "You created a new kit with the name %kit%."
+    setinv: "You set the inventory of the kit %kit% to your current one."
+    delete: "You deleted the kit %kit%."
+    sumo-true: "The kit %kit% is now a Sumo kit."
+    sumo-false: "The kit %kit% is no longer a Sumo kit."
+    combo-true: "The kit %kit% is now a Combo kit."
+    combo-false: "The kit %kit% is no longer a Combo kit."
+    ranked-true: "The kit %kit% is now a ranked kit."
+    ranked-false: "The kit %kit% is no longer a ranked kit."
+    icon-change: "You changed the icon of the kit %kit% to %item%."
+    cooldown: "You set the pearl cooldown of this kit to %cooldown% seconds."
+
+    #When a kit will be equipped to a player
+    give-kit: "Giving you the kit %kit%."
+
+  events:
+
+    #When some one starts an event
+    host-message: "You started a %event% with the id %id%."
+
+    #If a player has no permissions to host events, you could advertise a rank here :)
+    no-permission: "You don't have the permission to host events."
+
+    #Message that lets other people join the event, the button will be added automatically
+    broadcast-message: "%player% is hosting a %event%."
+
+    #When a player joins/leaves an event
+    join: "%player% joined the event. (%players-left%/80)"
+    leave: "%player% left the event. (%players-left%/80)"
+
+    #When the event requires some one to enter a password (and when it's wrong)
+    password: "This event is password protected. Please enter the password in chat:"
+    wrong-password: "Wrong password!"
+
+    #When the event starts (and there weren't enough players to expireCooldown)
+    start: "The event has started."
+    not-enough-players: "There were not enough players to expireCooldown the event."
+
+    #When the event is already full while somebody wants to join.
+    event-full: "The event is already full."
+
+    #Whenever a match within an event starts
+    starting-match: "Starting match between %player1% and %player2%."
+
+    #When a player has won the event
+    winner-broadcast: "%player% won the %event%. GG!"
+
+  editor:
+    not-setup: "The kit editor was not set up yet."
+    set-name-prompt: "Enter the custom kit's name:"
+    set-name: "You set the custom kit's name to %name%."
+    save-kit: "You saved the custom kit %kit%."
+    delete-kit: "You deleted the custom kit %kit%."
+
+  party:
+    no-party: "This player is currently not hosting a party."
+    only-leader: "Only the party leader can do that."
+    not-enough-players: "There are not enough players in your party."
+
+    create: "You created a party."
+    open: "Everyone can join the party now."
+    close: "Only invited players can join the party now."
+    invited: "You invited %player% to your party."
+    not-invited: "You were not invited to this party."
+    kicked: "%player% was kicked from the party."
+
+    #Button will be added automatically
+    invite-request: "%player% invited you to their party."
+    join: "%player% joined the party."
+    left: "%player% left the party."
+    now-leader: "%player% is not the party leader."
+
+    sent-request: "Your party has sent %leader%'s party a duel request with the kit %kit%."
+    received-request: "%leader%'s party has sent your party a duel request with the kit %kit%."

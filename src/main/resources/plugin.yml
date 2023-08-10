@@ -1,0 +1,85 @@
+name: IcePractice
+version: 0.6
+main: de.kontux.icepractice.IcePracticePlugin
+depend:
+  - ProtocolLib
+commands:
+  icepractice:
+    description: Plugin's main command.
+    aliases:
+      - iprac
+      - practice
+
+  duel:
+    description: Sends a duel request to a player.
+
+  accept:
+    description: Accepts a player's duel request.
+
+  queue:
+    description: Opens GUI to join ranked/unranked queues.
+
+  event:
+    description: Lets you join, host and manage events.
+
+  inventory:
+    description: Displays an inventroy after a fight.
+    usage: /inventory <id>
+    aliases:
+      - inv
+
+  settings:
+    description: Opens the settings GUI.
+
+  spectate:
+    description: Lets you spectate a player.
+    usage: /spec <player>
+    aliases:
+      - spec
+  party:
+    description: Allows you to join/interact with parties.
+    usage: /party <option>
+    aliases:
+      - p
+
+  spawn:
+    description: Teleprts you to spawn.
+    usage: /spawn
+
+  ping:
+    description: Displays your ping.
+
+  arena:
+    descroption: Allows you to create, delete and modify arenas.
+    usage: /arena <option>
+
+  editor:
+    description: Allows you to edit the kit editor.
+
+  sumoeventarena:
+    description: Allows you to create, delete and modify arenas for Sumo Events.
+    usage: /sumoeventarena (/sarena) <option>
+    aliases:
+      - sarena
+
+  kit:
+    description: Allows you to create, delete and modify kits.
+
+  day:
+    description: Sets the player's world time to day
+
+  sunset:
+    description: Sets the player's world time to sunset
+
+  night:
+    description: Sets the player's world time to night
+
+  goldenhead:
+    description: Gives you a golden head
+    aliases:
+      - ghead
+  leaderboards:
+    description: Lets you view a kit's leaderboards
+    aliases:
+      - lb
+
